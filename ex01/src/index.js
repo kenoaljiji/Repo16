@@ -11,4 +11,4 @@ console.log(bmw.manufacturer);
 console.log(bmw.model);
 console.log(bmw.production);
 
-module.exports = bmw;
+module.exports = Car;
