@@ -1,8 +1,8 @@
 class Car {
   constructor(manufacturer, model, production) {
-    (this.manufacturer = manufacturer),
-      (this.model = model),
-      (this.production = production);
+    this.manufacturer = manufacturer;
+    this.model = model;
+    this.production = production;
   }
 }
 
