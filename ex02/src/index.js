@@ -3,13 +3,13 @@ class Book {
     this.title = title;
   }
 
-  //Getter
+  //getter
 
   get title() {
     return this._title;
   }
 
-  //Setter
+  //setter
 
   set title(newTitle) {
     this._title = newTitle;
@@ -20,3 +20,5 @@ const littlePrince = new Book("The Little Prince");
 console.log(littlePrince.title);
 littlePrince.title = "Le Petit Prince";
 console.log(littlePrince.title);
+
+module.exports = Book;
