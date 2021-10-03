@@ -16,7 +16,7 @@ class Microsoft {
   }
 
   occupation() {
-    return this.name + " is a philantropist!";
+    return this.name + " is a philanthropist!";
   }
 }
 
@@ -32,7 +32,7 @@ class Facebook extends Microsoft {
 
 let henry = new Microsoft("William Henry Gates III");
 console.log(henry.occupation());
-let elliot = new Facebook("Mark Elliot Zuckerberg", 23);
+let elliot = new Facebook("Mark Elliot Zuckerberg ", 23);
 console.log(elliot.occupation());
 console.log(elliot.studentAge());
 
