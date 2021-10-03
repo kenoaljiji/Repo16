@@ -5,7 +5,7 @@ class Pets {
   }
 
   walk() {
-    let numberOfLegs = `${this.name} is walking on ${this.legs} legs.`;
+    let numberOfLegs = `${this.name} is walking on ${this.legs} legs`;
     return numberOfLegs;
   }
 }
